@@ -1,0 +1,19 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/  # Your virtual environment
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+.nox/
+.idea/  # PyCharm/IntelliJ IDE files
+*.egg-info/  # Python package metadata (like your alumath.egg-info)
+.DS_Store # macOS specific
