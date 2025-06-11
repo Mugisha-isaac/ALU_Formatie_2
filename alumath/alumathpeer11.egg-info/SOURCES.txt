@@ -1,8 +1,8 @@
 LICENSE.md
 README.md
 setup.py
-alumathpeer11/__init__.py
-alumathpeer11/matrix.py
+alumath/__init__.py
+alumath/matrix.py
 alumathpeer11.egg-info/PKG-INFO
 alumathpeer11.egg-info/SOURCES.txt
 alumathpeer11.egg-info/dependency_links.txt

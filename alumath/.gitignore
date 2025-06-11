@@ -15,6 +15,6 @@ pip-delete-this-directory.txt
 htmlcov/
 .nox/
 .idea/  # PyCharm/IntelliJ IDE files
-*.egg-info/  # Python package metadata (like your alumath.egg-info)
+*.egg-info/  # Python package metadata (like your alumathpeer11.egg-info)
 .DS_Store # macOS specific
 .vscode/  # Visual Studio Code settings

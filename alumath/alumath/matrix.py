@@ -1,5 +1,5 @@
 """
-AluMath Core - Matrix operations without external dependencies
+alumathpeer11 Core - Matrix operations without external dependencies
 """
 
 class Matrix:

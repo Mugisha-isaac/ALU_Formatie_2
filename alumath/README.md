@@ -1,18 +1,20 @@
-# AluMath
+# alumathpeer11
 
 Pure Python matrix operations library without external dependencies.
 
 ## Features
+
 - Matrix multiplication for different dimensions
 - Efficient loop-based implementation
 - No external dependencies
 - Simple and intuitive API
 
 ## Installation
-```bash
-pip install alumath
 
-from alumath import Matrix, create_matrix
+````bash
+pip install alumathpeer11
+
+from alumathpeer11 import Matrix, create_matrix
 
 # Create matrices
 m1 = create_matrix([[1, 2], [3, 4]])
@@ -28,5 +30,6 @@ print(result)
    ```bash
    pip install setuptools wheel twine
 
-   cd alumath
+   cd alumathpeer11
 python setup.py sdist bdist_wheel
+````

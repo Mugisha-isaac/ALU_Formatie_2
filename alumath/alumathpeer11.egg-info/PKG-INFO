@@ -3,7 +3,7 @@ Name: alumathpeer11
 Version: 1.0.0
 Summary: Pure Python matrix operations library without external dependencies
 Home-page: https://github.com/Mugisha-isaac/ALU_Formatie_2
-Author: alumathpeer11  Team
+Author: alumathpeer11 Team
 Author-email: i.mugisha@alustudent.com
 Keywords: matrix,multiplication,linear algebra,mathematics
 Classifier: Development Status :: 4 - Beta
@@ -35,13 +35,15 @@ Dynamic: summary
 Pure Python matrix operations library without external dependencies.
 
 ## Features
+
 - Matrix multiplication for different dimensions
 - Efficient loop-based implementation
 - No external dependencies
 - Simple and intuitive API
 
 ## Installation
-```bash
+
+````bash
 pip install alumathpeer11
 
 from alumathpeer11 import Matrix, create_matrix
@@ -62,3 +64,4 @@ print(result)
 
    cd alumathpeer11
 python setup.py sdist bdist_wheel
+````
