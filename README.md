@@ -32,6 +32,10 @@ m2 = create_matrix([[5, 6], [7, 8]])
 result = m1 \* m2
 print(result)
 
+
+## Link to Library
+[alumathpeer11 on PyPI](https://pypi.org/project/alumathpeer11/)
+
 # Running Locally and Contributing
 
 ## Getting Started
