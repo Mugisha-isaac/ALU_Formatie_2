@@ -11,25 +11,142 @@ Pure Python matrix operations library without external dependencies.
 
 ## Installation
 
-````bash
+```bash
 pip install alumathpeer11
 
-from alumathpeer11 import Matrix, create_matrix
+```
 
-# Create matrices
+## Usafe
+
+```python
+from alumathpeer11 import Matrix, create_matrix
+```
+
+## Create matrices
+
 m1 = create_matrix([[1, 2], [3, 4]])
 m2 = create_matrix([[5, 6], [7, 8]])
 
-# Matrix multiplication
-result = m1 * m2
+## Matrix multiplication
+
+result = m1 \* m2
 print(result)
-## Step 2: Publishing to PyPI
 
-### Prerequisites:
-1. **Install required tools:**
+# Running Locally and Contributing
+
+## Getting Started
+
+Follow these steps to run the project locally and start contributing:
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/Mugisha-isaac/ALU_Formative_2
+```
+
+### 2. Change Directory
+
+```bash
+cd ALU_Formative_2
+```
+
+### 3. Install Required Tools
+
+```bash
+pip install setuptools wheel twine
+```
+
+## Next Steps
+
+After completing the initial setup, you may want to:
+
+### 4. Set Up Virtual Environment (Recommended)
+
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+### 5. Install Project Dependencies
+
+```bash
+# Install the project in development mode
+pip install -e .
+
+# Or if there's a requirements file:
+pip install -r requirements.txt
+```
+
+### 6. Run Tests (if available)
+
+```bash
+# Run tests to ensure everything is working
+python -m pytest
+# or
+python -m unittest discover
+```
+
+## Contributing Guidelines
+
+### Making Changes
+
+1. **Create a new branch** for your feature or bugfix:
+
    ```bash
-   pip install setuptools wheel twine
+   git checkout -b feature/your-feature-name
+   ```
 
-   cd alumathpeer11
-python setup.py sdist bdist_wheel
-````
+2. **Make your changes** and commit them:
+
+   ```bash
+   git add .
+   git commit -m "Add your descriptive commit message"
+   ```
+
+3. **Push your branch**:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+4. **Create a Pull Request** on GitHub with a clear description of your changes.
+
+### Code Style
+
+- Follow PEP 8 guidelines for Python code
+- Add docstrings to functions and classes
+- Include tests for new functionality
+- Update documentation as needed
+
+### Building and Testing
+
+Before submitting your contribution:
+
+```bash
+# Build the package
+python -m build
+
+# Run any linting tools
+flake8 src/
+# or
+pylint src/
+
+# Ensure tests pass
+python -m pytest
+```
+
+## Getting Help
+
+If you encounter any issues:
+
+1. Check the existing issues on GitHub
+2. Create a new issue with detailed information about the problem
+3. Feel free to ask questions in discussions
+
+Thank you for contributing! 🚀
