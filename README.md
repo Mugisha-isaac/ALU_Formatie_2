@@ -22,12 +22,12 @@ pip install alumathpeer11
 from alumathpeer11 import Matrix, create_matrix
 ```
 
-## Create matrices
+# Create matrices
 
 m1 = create_matrix([[1, 2], [3, 4]])
 m2 = create_matrix([[5, 6], [7, 8]])
 
-## Matrix multiplication
+# Matrix multiplication
 
 result = m1 \* m2
 print(result)
@@ -83,39 +83,7 @@ pip install -e .
 pip install -r requirements.txt
 ```
 
-### 6. Run Tests (if available)
-
-```bash
-# Run tests to ensure everything is working
-python -m pytest
-# or
-python -m unittest discover
-```
-
 ## Contributing Guidelines
-
-### Making Changes
-
-1. **Create a new branch** for your feature or bugfix:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-2. **Make your changes** and commit them:
-
-   ```bash
-   git add .
-   git commit -m "Add your descriptive commit message"
-   ```
-
-3. **Push your branch**:
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-4. **Create a Pull Request** on GitHub with a clear description of your changes.
 
 ### Code Style
 
@@ -140,13 +108,3 @@ pylint src/
 # Ensure tests pass
 python -m pytest
 ```
-
-## Getting Help
-
-If you encounter any issues:
-
-1. Check the existing issues on GitHub
-2. Create a new issue with detailed information about the problem
-3. Feel free to ask questions in discussions
-
-Thank you for contributing! 🚀
