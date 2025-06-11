@@ -18,7 +18,7 @@ pip install alumathpeer11
 
 ## Usage
 
-Visit pip repository: [text](https://pypi.org/project/alumathpeer11/) and search for alumathpeer11
+Visit pip repository: [library url](https://pypi.org/project/alumathpeer11/) and search for alumathpeer11
 
 ```python
 from alumathpeer11 import Matrix, create_matrix
