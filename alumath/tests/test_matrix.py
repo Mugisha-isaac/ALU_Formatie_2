@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Comprehensive test for alumath library
+Comprehensive test for alumathpeer11 library
 """
 
 def main():
-    print("🧮 TESTING ALUMATH LIBRARY 🧮")
+    print("🧮 TESTING alumathpeer11 LIBRARY 🧮")
     print("=" * 40)
     
     try:
-        from alumath import Matrix, create_matrix, identity_matrix, zero_matrix
+        from alumathpeer11 import Matrix, create_matrix, identity_matrix, zero_matrix
         print("✓ All imports successful")
         
         # Test 1: Basic 2x2 multiplication

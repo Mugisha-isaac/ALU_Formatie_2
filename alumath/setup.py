@@ -4,9 +4,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="alumath",
+    name="alumathpeer11",
     version="1.0.0",
-    author="AluMath  Team",
+    author="alumathpeer11 Team",
     author_email="i.mugisha@alustudent.com",
     description="Pure Python matrix operations library without external dependencies",
     long_description=long_description,
@@ -24,7 +24,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
-        "Topic :: Mathemtatics for machine learning",
+        # "Topic :: Mathemtatics for machine learning",
     ],
     python_requires=">=3.7",
     install_requires=[],  # No external dependencies

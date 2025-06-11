@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/isaac/Documents/workdir/alu/ALU_Formatie_2/alumath/venv
+set -gx VIRTUAL_ENV /home/isaac/Documents/workdir/alu/ALU_Formatie_2/alumathpeer11/venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH
