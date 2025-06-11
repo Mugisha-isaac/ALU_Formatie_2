@@ -16,7 +16,7 @@ pip install alumathpeer11
 
 ```
 
-## Usafe
+## Usage
 
 ```python
 from alumathpeer11 import Matrix, create_matrix
@@ -107,4 +107,11 @@ pylint src/
 
 # Ensure tests pass
 python -m pytest
+```
+
+cd alumathpeer11
+python setup.py sdist bdist_wheel
+
+```
+
 ```
